@@ -51,6 +51,7 @@ if dein#load_state('~/.vim/dein')
   " Add or remove your plugins here:
   call dein#add('Shougo/neosnippet.vim')
   call dein#add('Shougo/neosnippet-snippets')
+  call dein#add('Shougo/unite.vim')
   call dein#add('nanotech/jellybeans.vim')
 
   " You can specify revision/branch/tag.
