@@ -32,10 +32,6 @@ set tabstop=4
 set autoindent
 set title
 
-syntax on
-
-" カラースキーム
-colorscheme jellybeans
 
 " indent_guides
 let g:indent_guides_enable_on_vim_startup = 1
@@ -86,3 +82,9 @@ syntax enable
 "endif
 
 "End dein Scripts-------------------------
+
+
+" カラースキーム
+colorscheme jellybeans
+
+syntax on
