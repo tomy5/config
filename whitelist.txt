@@ -20,3 +20,6 @@ github.com
 twitter.com
 
 nintendo.com
+nintendo.co.jp
+
+steampowered.com
