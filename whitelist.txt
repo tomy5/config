@@ -1,6 +1,8 @@
 google.com
 google.co.jp
 
+firefox.com
+
 amazon.com
 amazon.co.jp
 
