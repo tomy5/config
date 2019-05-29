@@ -54,6 +54,7 @@ if dein#load_state('~/.vim/dein')
   call dein#add('jacoborus/tender.vim')
   call dein#add('jdkanani/vim-material-theme')
   call dein#add('w0ng/vim-hybrid')
+  call dein#add('Shougo/vinarise.vim')
 
   " You can specify revision/branch/tag.
   " call dein#add('Shougo/deol.nvim', { 'rev': 'a1b5108fd' })
