@@ -1,0 +1,4 @@
+alias ud='sudo apt update && apt list --upgradable'
+alias ug='sudo apt upgrade'
+alias cls='clear'
+alias py='python3'

@@ -25,6 +25,18 @@
 " 改行時に前の行のインデントを継続
 "set autoindent
 
+"---
+augroup BinaryXXD
+	autocmd!
+	autocmd BufReadPre *.bin let &binary =1
+	autocmd BufReadPost * if &binary | silent %!xxd -g 1
+	autocmd BufReadPost * set ft=xxd | endif
+	autocmd BufWritePre * if &binary | %!xxd -r | endif
+	autocmd BufWritePost * if &binary | silent %!xxd -g 1
+	autocmd BufWritePost * set nomod | endif
+augroup END
+"---
+
 set title
 set number "行番号を表示
 set encoding=utf-8
