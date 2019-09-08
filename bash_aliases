@@ -1,4 +1,6 @@
 alias ud='sudo apt update && apt list --upgradable'
 alias ug='sudo apt upgrade'
+alias apti='sudo apt install'
+alias apts='apt search'
 alias cls='clear'
 alias py='python3'
