@@ -1,5 +1,5 @@
 alias ud='sudo apt update && apt list --upgradable'
-alias ug='sudo apt upgrade'
+alias ug='sudo apt upgrade && clear'
 alias apti='sudo apt install'
 alias apts='apt search'
 alias cls='clear'
